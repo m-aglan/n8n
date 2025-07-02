@@ -16,16 +16,15 @@ primary_region = 'cdg'
   N8N_PROTOCOL = 'https'
 
   # PostgreSQL config
-  DB_TYPE = 'postgresdb'
+  DB_TYPE = 'postgres'
   DB_POSTGRESDB_HOST = 'isez.your-database.de'
   DB_POSTGRESDB_PORT = '5432'
   DB_POSTGRESDB_DATABASE = 'donedl_n8n'
-  DB_POSTGRESDB_USER = 'DoneDL_n8n'
+  DB_POSTGRESDB_USER = 'donedl_n8n'
   DB_POSTGRESDB_PASSWORD = 'JS31bZ8TXeb67BLu'
 
-[[mounts]]
-  source = 'n8n_data'
-  destination = '/home/node/.n8n'
+
+
 
 [http_service]
   internal_port = 5678
@@ -35,4 +34,7 @@ primary_region = 'cdg'
   min_machines_running = 0
   processes = ['app']
 
-
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
