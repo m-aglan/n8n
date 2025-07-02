@@ -16,7 +16,7 @@ primary_region = 'cdg'
   N8N_PROTOCOL = 'https'
 
   # PostgreSQL config
-  DB_TYPE = 'postgres'
+  DB_TYPE = 'postgresdb'
   DB_POSTGRESDB_HOST = 'isez.your-database.de'
   DB_POSTGRESDB_PORT = '5432'
   DB_POSTGRESDB_DATABASE = 'donedl_n8n'
