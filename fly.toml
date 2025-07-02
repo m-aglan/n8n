@@ -14,6 +14,8 @@ primary_region = 'cdg'
   N8N_LOG_LEVEL = 'info'
   N8N_PORT = '5678'
   N8N_PROTOCOL = 'https'
+  N8N_HOST = "donedl-n8n.fly.dev"
+
 
   # PostgreSQL config
   DB_TYPE = 'postgresdb'
