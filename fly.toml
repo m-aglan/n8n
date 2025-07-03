@@ -15,6 +15,7 @@ primary_region = 'cdg'
   N8N_PORT = '5678'
   N8N_PROTOCOL = 'https'
   N8N_HOST = "donedl-n8n.fly.dev"
+  WEBHOOK_URL = "https://donedl-n8n.fly.dev"
 
 
   # PostgreSQL config
@@ -25,7 +26,7 @@ primary_region = 'cdg'
   DB_POSTGRESDB_USER = 'donedl_n8n'
   DB_POSTGRESDB_PASSWORD = 'JS31bZ8TXeb67BLu'
 
-
+WEBHOOK_URL="https://donedl-n8n.fly.dev"
 
 
 [http_service]
